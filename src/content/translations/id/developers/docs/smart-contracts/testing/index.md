@@ -2,7 +2,6 @@
 title: Menguji kontrak pintar
 description:
 lang: id
-sidebar: true
 incomplete: true
 ---
 
@@ -16,11 +15,6 @@ incomplete: true
 **Cakupan Solidity -** **_Peralatan cakupan kode Solidity alternatif._**
 
 - [GitHub](https://github.com/sc-forks/solidity-coverage)
-
-**hevm -** **_Implementasi EVM yang dibuat secara spesifik untuk pengujian unit dan melakukan debug kontrak pintar._**
-
-- [GitHub](https://github.com/dapphub/dapptools/tree/master/src/hevm)
-- [Obrolan DappHub](https://dapphub.chat/)
 
 **Whiteblock Genesis -** **_Sandbox pengembangan dan platform pengujian lengkap untuk blockchain._**
 

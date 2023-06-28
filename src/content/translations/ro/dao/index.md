@@ -4,7 +4,6 @@ description: Prezentare generală a organizațiilor DAO de pe Ethereum
 lang: ro
 template: use-cases
 emoji: ":handshake:"
-sidebar: true
 sidebarDepth: 2
 image: ../../../../assets/use-cases/dao-2.png
 alt: O reprezentare a votului unui DAO în favoarea unei propuneri.
@@ -75,7 +74,7 @@ Temelia unei organizaţii DAO este reprezentată de contractul său inteligent. 
 
 Acest lucru este posibil deoarece contractele inteligente nu pot fi falsificate odată ce ajung live pe Ethereum. Nu puteţi pur și simplu să modificaţi codul (regulile organizaţiei DAO) fără ca lumea să observe, pentru că totul este public.
 
-<DocLink to="/developers/docs/smart-contracts/">
+<DocLink to="/smart-contracts/">
   Mai multe despre contractele inteligente
 </DocLink>
 

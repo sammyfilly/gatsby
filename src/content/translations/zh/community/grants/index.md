@@ -1,7 +1,6 @@
 ---
 title: 以太坊基金会与社区资助方案
 description: 以太坊生态系统的资助方案清单。
-sidebar: true
 lang: zh
 ---
 
@@ -15,26 +14,21 @@ lang: zh
 
 这些计划通过向大量项目提供资助来支持庞大的以太坊生态系统。 其中包括可扩容性、社区建设、安全、隐私等解决方案。 这些资助并非专门针对任何一个以太坊平台，如果不确定，可以从这里开始。
 
-- [以太坊基金会生态系统支持计划](https://esp.ethereum.foundation) - _资助有利于以太坊的开源项目，重点关注通用工具、基础设施、研究和公共物品_
-  - [学术资助行动](/community/grants/academic-grants-round/) - _以太坊基金会正在赞助一波与以太坊相关的学术工作_
-- [以太坊意见征求](https://github.com/ethereum/requests-for-proposals) - _以太坊基金会对以太坊生态系统中的工作和项目提出的建议要求_
-- [MetaCartel](https://www.metacartel.org/grants/) - _去中心化应用程序开发，去中心化自治组织创建_  
-  资助从 1 千美元到 8 千美元不等。
-- [Moloch DAO](https://www.molochdao.com/) - _隐私、第二层扩容、客户端安全性等_
+
 - [开放资助](https://opengrants.com/explore)
+- [DAO 资助](https://docs.google.com/spreadsheets/d/1XHc-p_MHNRdjacc8uOEjtPoWL86olP4GyxAJOFO0zxY/edit#gid=0) - _Google 资助组织电子表格_
+- [Web3 资助 Crunchbase](https://www.cryptoneur.xyz/web3-grants) - _按类别、用例、金额等筛选和搜索资助。 致力于帮助他人找到合适的资助。_
+- [学术资助](https://esp.ethereum.foundation/academic-grants) - _为以太坊相关学术工作提供资助_
 
 ## 特定项目 {#project-specific}
 
 这些项目为旨在开发和实验自己技术的项目建立了自己的资助。
 
-- [The Graph](https://airtable.com/shrdfvnFvVch3IOVm) – _[The Graph ](https://thegraph.com/)生态_
-- [Uniswap 资助计划](https://www.unigrants.org/) – _[Uniswap](https://uniswap.org/) 社区_
-- [Balancer](https://forms.gle/c68e4fM7JHCQkPkN7) - _[Balancer](https://balancer.fi/) 生态系统基金_
-- [mStable](https://docs.mstable.org/advanced/grants-program) - _[mStable](https://mstable.org/) 社区_
+
 
 ## 二次方融资 {#quadratic-funding}
 
-以太坊的开源属性催生了一种有趣的新型募资模式：二次方融资。 这有可能改善我们在未来为各种公共产品募资的方式。 二次方募资确保获得最多资金的项目是那些具有最独特需求的项目。 换句话说，就是那些能够改善大多数人生活的项目。 [关于二次方融资的更多信息。](/defi/#quadratic-funding)
+以太坊的开源属性催生了一种有趣的新型募资模式：二次方融资。 这有可能改进我们在未来为各种公共产品募资的方式。 二次方募资确保获得最多资金的项目是那些具有最独特需求的项目。 换句话说，就是那些能够改善大多数人生活的项目。 [关于二次方融资的更多信息。](/defi/#quadratic-funding)
 
 - [Gitcoin](https://gitcoin.co/grants)
 - [clr.fund](https://clr.fund/)

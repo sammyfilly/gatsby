@@ -2,7 +2,6 @@
 title: Upravljanje Ethereuma
 description: Uvod v odločevalski proces Ethereuma.
 lang: sl
-sidebar: true
 ---
 
 # Uvod v upravljanje Ethereuma {#introduction}
@@ -117,7 +116,7 @@ Razcepi se zgodijo, ko pride do pomembnejših nadgradenj ali sprememb omrežja i
 
 DAO razcep se je zgodil kot odziv na [2016 DAO napad](https://www.coindesk.com/understanding-dao-hack-journalists), pri katerem je bilo z napadom iz nezavarovane [DAO](/glossary/#dao) pogodbe izpraznjenih več kot 3,6 milijona ETH. Razcep je prestavil sredstva iz pogodbe z napako v novo pogodbo, kar je vsem, ki so sredstva v napadu izgubili, omogočilo vračilo.
 
-O tem načinu odziva je glasovala Etheerum skupnost. Katerikoli lastnik ETH je lahko glasoval prek transakcije na [glasovalni platformi](http://v1.carbonvote.com/). Odločitev za razcep je prejela več kot 85 % glasov.
+O tem načinu odziva je glasovala Ethereum skupnost. Katerikoli lastnik ETH je lahko glasoval prek transakcije na [glasovalni platformi](http://v1.carbonvote.com/). Odločitev za razcep je prejela več kot 85 % glasov.
 
 Pomembno je opomniti, da čeprav se je protokol razcepil z namenom preklica napada, je teža glasov, ki so razcep podprli lahko predmet razprave iz več razlogov:
 
@@ -149,9 +148,9 @@ Proces Ethereum upravljanja pogosto zapostavi hitrost in učinkovitost za odprto
 
 Medtem ko je bil razvoj specifikacij in implementacij vedno povsem odprtokoden, uradni procesi za predlaganje nadgradenj opisani zgoraj niso bili uporabljeni. To je omogočilo, da so bile spremembe s strani raziskovalcev in implementatorjev določene in dogovorjene hitreje.
 
-Ko se bo Oddajniška veriga združila z Ethereumovo izvršilno plastjo, se bo upravljavski proces za predlaganje sprememb poenotil. Proces za implementacijo združitve je [že na poti](https://github.com/ethereum/EIPs/pull/3675).
+Ko se bo Oddajniška veriga združila z Ethereumovo izvršilno plastjo, se bo upravljavski proces za predlaganje sprememb poenotil. Proces za implementacijo združitve je [že na poti](https://eips.ethereum.org/EIPS/eip-3675).
 
-<ButtonLink to="/upgrades/merge/">Več o združitvi</ButtonLink>
+<ButtonLink to="/roadmap/merge/">Več o združitvi</ButtonLink>
 
 <Divider />
 
@@ -169,7 +168,6 @@ Ko se bo Oddajniška veriga združila z Ethereumovo izvršilno plastjo, se bo up
 
 Upravljanje Ethereuma ni rigidno določeno. Različni sodelujoči v skupnosti imajo raznolike poglede nanj. Tukaj jih je nekaj:
 
-- [Upravljanje Ethereuma](https://docs.ethhub.io/ethereum-basics/governance/) – _ETHHub_
 - [Kako deluje Ethereum upravljanje?](https://cryptotesters.com/blog/ethereum-governance) – _Cryptotesters_
 - [Kako deluje Ethereum upravljanje](https://medium.com/coinmonks/how-ethereum-governance-works-71856426b63a) – _Micah Zoltu_
 - [Kaj je ključni Ethereum razvijalec?](https://hudsonjameson.com/2020-06-22-what-is-an-ethereum-core-developer/) – _Hudson Jameson_

@@ -1,8 +1,7 @@
 ---
 title: 以太坊活动
 description: 如何加入以太坊社区。
-sidebar: true
-lang: zh
+
 ---
 
 ## 活动预告 {#events}

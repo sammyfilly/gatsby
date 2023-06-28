@@ -1,7 +1,7 @@
 ---
 title: Ethereum Foundation
 description: L'Ethereum Foundation (EF) est une organisation à but non lucratif destinée à soutenir Ethereum et les technologies qui y sont associées.
-sidebar: false
+hideEditButton: true
 lang: fr
 ---
 
@@ -9,9 +9,9 @@ lang: fr
 
 <Logo/>
 
-L'[Ethereum Foundation](http://ethereum.foundation/) (EF) est une organisation à but non lucratif vouée à soutenir [Ethereum](/what-is-ethereum/) et les technologies qui y sont associées.
+L'[Ethereum Foundation](http://ethereum.foundation/) (la fondation Ethereum, EF) est une organisation à but non lucratif vouée à soutenir [Ethereum](/what-is-ethereum/) et les technologies qui y sont associées.
 
-L'EF n'est pas une entreprise, ni un organisme à but non lucratif traditionnel. Son rôle n'est ni de contrôler ni de diriger Ethereum, ni d'être la seule à financer le développement essentiel des technologies liées à Ethereum. L'EF fait partie d'un [écosystème](/community/) bien plus grand.
+L'EF n'est pas une entreprise, ni un organisme à but non lucratif traditionnel. Son rôle n'est ni de contrôler ni de diriger Ethereum, ni d'être la seule organisation à financer le développement essentiel des technologies liées à Ethereum. L'EF fait partie d'un [écosystème](/community/) bien plus grand.
 
 ## Initiatives de l'Ethereum Foundation {#ethereum-foundation-initiatives}
 
@@ -29,6 +29,12 @@ Les vidéos des présentations qui ont eu lieu chaque année à la conférence d
 
 Pour en savoir plus, visitez [devcon.org](https://devcon.org/), consultez le [blog Devcon](https://blog.ethereum.org/category/devcon/), ou suivez le compte Twitter [@efdevcon](https://twitter.com/EFDevcon) pour les dernières actualités.
 
+### Programme de bourses {#fellowship-program}
+
+Le [programme de bourses de la Fondation Ethereum](https://fellowship.ethereum.foundation/) est une initiative visant à combler les lacunes en matière de représentation entre les cultures, les nationalités et les classes économiques. Le programme de bourses s'attache à combler ces écarts en identifiant et en soutenant les individus talentueux qui participent à rendre Ethereum plus pertinent, et en éliminant les obstacles à l'entrée pour les personnes sous-représentées et les communautés qui deviendront le futur du Web3.
+
+[Plus d'informations sur fellowship.ethereum.foundation](https://fellowship.ethereum.foundation/).
+
 <br/>
 
-Pour plus d'informations sur la fondation et ses travaux, visitez le [site de l'Ethereum Foundation](http://ethereum.foundation/), ou lisez le [blog de l'Ethereum Foundation](https://blog.ethereum.org/).
+Pour plus de renseignements sur la fondation et ses travaux, visitez le site [ethereum.foundation](http://ethereum.foundation/) ou lisez le [blog de l'Ethereum Foundation](https://blog.ethereum.org/) pour obtenir les dernières actualités et annonces d'EF.

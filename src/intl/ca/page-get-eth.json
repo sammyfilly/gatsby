@@ -1,4 +1,7 @@
 {
+  "page-get-eth-article-keeping-crypto-safe": "Les claus per mantenir segures les vostres criptomonedes",
+  "page-get-eth-article-protecting-yourself": "Protegiu-vos i protegiu els vostres fons",
+  "page-get-eth-article-store-digital-assets": "Com emmagatzemar actius digitals en Ethereum",
   "page-get-eth-cex": "Cases de canvi centralitzades",
   "page-get-eth-cex-desc": "Les cases de canvi són negocis que us permeten comprar criptomonedes utilitzant moneda tradicional. Tenen la custòdia sobre qualsevol ETH que compreu fins que ho envieu a la vostra cartera.",
   "page-get-eth-checkout-dapps-btn": "Descobriu dapps",
@@ -21,6 +24,7 @@
   "page-get-eth-exchanges-no-exchanges": "Disculpeu, no coneixem cap casa de canvi que us permeti comprar ETH en aquest país. Si en coneixeu cap, aviseu-nos a",
   "page-get-eth-exchanges-no-exchanges-or-wallets": "Disculpeu, no coneixem cap casa de canvi o cartera que us permeti comprar ETH en aquest país. Si en coneixeu cap, aviseu-nos a",
   "page-get-eth-exchanges-no-wallets": "Disculpeu no coneixem cap cartera que us permeti comprar ETH en aquest país. Si en coneixeu cap, aviseu-nos a",
+  "page-get-eth-exchanges-search": "Escriviu on viviu...",
   "page-get-eth-exchanges-success-exchange": "Registrar-vos a una casa de canvi pot trigar diversos dies degut a les comprovacions legals.",
   "page-get-eth-exchanges-success-wallet-link": "carteres",
   "page-get-eth-exchanges-success-wallet-paragraph": "On viviu podeu comprar ETH directament des d’aquestes carteres. Obteniu més informació sobre",
@@ -39,9 +43,7 @@
   "page-get-eth-security": "Tanmateix, això vol dir que necessiteu prendre-vos seriosament la seguretat dels vostres fons. Amb ETH, no esteu confiant la cura dels vostres diners a un banc, sinó que ho feu pel vostre compte.",
   "page-get-eth-smart-contract-link": "Més informació sobre els contractes intel·ligents",
   "page-get-eth-swapping": "Intercanvieu els teus tokens amb ETH d’altra gent i viceversa.",
-  "page-get-eth-traditional-currencies": "Compreu amb monedes tradicionals",
-  "page-get-eth-traditional-payments": "Compreu ETH amb mètodes de pagament tradicionals directament dels venedors.",
-  "page-get-eth-try-dex": "Proveu una DEX",
+  "page-get-eth-try-dex": "Proveu un DEX (Plataforma de \"Trading\" Descentralitzada)",
   "page-get-eth-use-your-eth": "Utilitzeu els vostres ETH",
   "page-get-eth-use-your-eth-dapps": "Ara que teniu ETH, reviseu algunes aplicacions descentralitzades d'Ethereum (dapps). Hi ha dapps per a finances, xarxes socials, jocs i moltes més categories.",
   "page-get-eth-wallet-instructions": "Seguiu les instruccions de la cartera",
@@ -58,5 +60,7 @@
   "page-get-eth-your-address": "La vostra adreça ETH",
   "page-get-eth-your-address-desc": "Quan descarregueu una cartera se vos crea una adreça ETH pública. Un exemple:",
   "page-get-eth-your-address-desc-3": "Considereu-la una adreça de correu electrònic, però en lloc de correus reps ETH. Si voleu transferir ETH d'una casa de canvi a la cartera, utilitzeu la vostra adreça com a destinació. Assegureu-vos de revisar-ho sempre amb cura abans d'enviar!",
-  "page-get-eth-your-address-wallet-link": "Descobriu carteres"
+  "page-get-eth-your-address-wallet-link": "Descobriu carteres",
+  "listing-policy-raise-issue-link": "Planteja tema",
+  "page-find-wallet-last-updated": "Última actualització"
 }

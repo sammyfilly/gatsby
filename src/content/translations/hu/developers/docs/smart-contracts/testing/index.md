@@ -2,7 +2,6 @@
 title: Okos szerződések tesztelése
 description:
 lang: hu
-sidebar: true
 incomplete: true
 ---
 
@@ -16,11 +15,6 @@ incomplete: true
 **Solidity-Coverage -** **_Alternatív Solidity kód lefedettségi eszköz._**
 
 - [GitHub](https://github.com/sc-forks/solidity-coverage)
-
-**hevm -** **_EVM implementáció kifejezetten okosszerződés unit test-re és debugging-ra._**
-
-- [GitHub](https://github.com/dapphub/dapptools/tree/master/src/hevm)
-- [DappHub Chat](https://dapphub.chat/)
 
 **Whiteblock Genesis -** **_Egy end-to-end fejlesztői sandbox és blokklánc teszt platform._**
 

@@ -9,11 +9,10 @@ tags:
   - "工厂"
   - "部署"
   - "可组合性"
-skill: 高级
+skill: advanced
 lang: zh
-sidebar: true
 published: 2020-04-05
-source: 以太坊开发团队
+source: EthereumDev
 sourceUrl: https://ethereumdev.io/interact-with-other-contracts-from-solidity/
 address: "0x19dE91Af973F404EDF5B4c093983a7c6E3EC8ccE"
 ---
@@ -174,6 +173,6 @@ contract CounterFactory {
 
 编译完成后，您将在 Remix 的部署部分选择要部署的工厂。
 
-![选择要在Remix中部署的工厂。](../../../../../developers/tutorials/interact-with-other-contracts-from-solidity/counterfactory-deploy.png)
+![选择要在Remix中部署的工厂。](./counterfactory-deploy.png)
 
 然后，您可以运行工厂合约并且观察值的变化情况。 如果希望通过其他地址来调用智能合约，您需要在 Remix 的帐户选择中更改地址。

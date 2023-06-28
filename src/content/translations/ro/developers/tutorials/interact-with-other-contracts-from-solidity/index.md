@@ -3,17 +3,14 @@ title: Interacționează cu alte contracte din Solidity
 description: Cum se implementezi un contract inteligent dintr-un contract existent și să interacționezi cu acesta
 author: "jdourlens"
 tags:
-  [
-    "contracte inteligente",
-    "solidity",
-    "remix",
-    "fabrici",
-    "implementare",
-    "combinabilitate",
-  ]
-skill: avansat
+  - "contracte inteligente"
+  - "solidity"
+  - "remix"
+  - "fabrici"
+  - "implementare"
+  - "combinabilitate"
+skill: advanced
 lang: ro
-sidebar: true
 published: 2020-04-05
 source: EthereumDev
 sourceUrl: https://ethereumdev.io/interact-with-other-contracts-from-solidity/
@@ -35,12 +32,12 @@ contract Counter {
 
 
      modifier onlyOwner(address caller) {
-        require(caller == _owner, "Nu ești proprietarul contractului");
+        require(caller == _owner, "You're not the owner of the contract");
         _;
     }
 
     modifier onlyFactory() {
-        require(msg.sender == _factory, "Trebuie să folosești fabrica");
+        require(msg.sender == _factory, "You need to use the factory");
         _;
     }
 
@@ -124,12 +121,12 @@ contract Counter {
 
 
      modifier onlyOwner(address caller) {
-        require(caller == _owner, "Nu ești proprietarul contractului");
+        require(caller == _owner, "You're not the owner of the contract");
         _;
     }
 
     modifier onlyFactory() {
-        require(msg.sender == _factory, "Trebuie să utilizezi fabrica");
+        require(msg.sender == _factory, "You need to use the factory");
         _;
     }
 
@@ -176,6 +173,6 @@ contract CounterFactory {
 
 După compilare, în secțiunea Remix Deploy vei selecta fabrica ce va fi implementată:
 
-![Selectarea fabricii care va fi implementată în Remix](../../../../../developers/tutorials/interact-with-other-contracts-from-solidity/counterfactory-deploy.png)
+![Selectarea fabricii care va fi implementată în Remix](./counterfactory-deploy.png)
 
 După aceea, poți să te joci cu fabrica de contract și să verifici cum se modifică valorile. Dacă dorești să apelezi contractul inteligent de la o adresă diferență va trebui să modifici adresa din „Selectare cont” din Remix.

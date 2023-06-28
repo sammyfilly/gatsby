@@ -2,7 +2,6 @@
 title: Riwayat dan Fork Ethereum
 description: Riwayat blockchain Ethereum termasuk tonggak sejarah, rilis, dan fork utama.
 lang: id
-sidebar: true
 sidebarDepth: 1
 ---
 
@@ -20,7 +19,7 @@ Perubahan-perubahan aturan ini dapat membuat pemisahan sementara di jaringan. Bl
 
 </ExpandableCard>
 
-Sedang mencari peningkatan protokol di masa mendatang? [Pelajari tentang peningkatan Ethereum berikutnya](/upgrades/).
+Sedang mencari peningkatan protokol di masa mendatang? [Pelajari tentang peningkatan Ethereum berikutnya](/roadmap/).
 
 <Divider />
 
@@ -28,7 +27,7 @@ Sedang mencari peningkatan protokol di masa mendatang? [Pelajari tentang peningk
 
 ### Arrow Glacier {#arrow-glacier}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>09-Des-2021 07:55:23 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Nomor blok: <a href="https://etherscan.io/block/13773000">13.773.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Harga ETH: $4111 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20211207064430/https://ethereum.org/en/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="arrowGlacier" />
 
 #### Ringkasan {#arrow-glacier-summary}
 
@@ -43,7 +42,7 @@ Peningkatan jaringan Arrow Glacier menjeda [bom kesulitan](/glossary/#difficulty
 
 </ExpandableCard>
 
-#### <emoji text=":police_car_light:" size={1} mr="0.5rem" />Operator node {#arrow-glacier-node-operators}
+#### <Emoji text=":police_car_light:" size={1} mr="0.5rem" />Operator node {#arrow-glacier-node-operators}
 
 Pastikan untuk meningkatkan perangkat lunak klien Anda ke versi terbarunya sebelum 5 Desember 2021 guna mengetahui frekuensi blok variabel. Sehingga klien Anda tidak perlu menyinkronkan ke suatu rantai sebelum fork, yang menyebabkan kegagalan untuk mengirim dana atau dengan benar memverifikasi transaksi.
 
@@ -51,15 +50,15 @@ Pastikan untuk meningkatkan perangkat lunak klien Anda ke versi terbarunya sebel
 
 ### Altair {#altair}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /><code>27-Okt-2021 10:56:23 AM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Nomor epoch: 74.240<br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} />Harga ETH: $4024 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20211026174951/https://ethereum.org/en/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="altair" />
 
 #### Ringkasan {#altair-summary}
 
-Peningkatan Altair adalah peningkatan pertama yang terjadwal untuk [Rantai Suar](/upgrades/beacon-chain). Peningkatan ini akan menambah dukungan pada "komite sinkronisasi", yang dapat mengaktifkan klien ringan, dan memberikan validator penalti ketidakaktifan dan pemotongan sampai nilai maksimumnya.
+Peningkatan Altair adalah peningkatan pertama yang terjadwal untuk [Rantai Suar](/roadmap/beacon-chain). Peningkatan ini akan menambah dukungan pada "komite sinkronisasi", yang dapat mengaktifkan klien ringan, dan memberikan validator penalti ketidakaktifan dan pemotongan sampai nilai maksimumnya.
 
 - [Baca spesifikasi peningkatan Altair](https://github.com/ethereum/consensus-specs/tree/dev/specs/altair)
 
-#### <emoji text=":tada:" size={1} mr="0.5rem" />Fakta menyenangkan! {#altair-fun-fact}
+#### <Emoji text=":tada:" size={1} mr="0.5rem" />Fakta menyenangkan! {#altair-fun-fact}
 
 Altair adalah peningkatan besar dan pertama untuk jaringan yang memiliki waktu rollout yang pasti. Setiap peningkatan sebelumnya telah berdasarkan pada suatu nomor blok yang dideklarasikan pada rantai bukti kerja, dengan waktu blok yang bervariasi. Rantai Suar tidak mengharuskan penyelesaian bukti kerja, dan sebagai gantinya berfungsi pada sistem epoch berbasis waktu yang terdiri dari 32 "slot" waktu dua belas detik di mana para validator dapat mengusulkan blok. Inilah alasan kami mengetahui secara pasti kapan kami akan mencapai epoch 74.240 dan Altair mulai beroperasi!
 
@@ -69,13 +68,13 @@ Altair adalah peningkatan besar dan pertama untuk jaringan yang memiliki waktu r
 
 ### London {#london}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>05-Agu-2021 12:33:42 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/12965000">12.965.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $2621 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20210805124609/https://ethereum.org/en/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="london" />
 
 #### Ringkasan {#london-summary}
 
 Peningkatan London memperkenalkan [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559), yang memperbarui pasar biaya transaksi, bersamaan dengan perubahan bagaimana pembayaran kembali gas ditangani dan jadwal untuk [Zaman Es](/glossary/#ice-age).
 
-- [Apakah Anda pengembang dApp? Pastikan meningkatkan pustaka dan perangkat Anda.](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/ecosystem-readiness.md)
+- [Apakah Anda pengembang dApp? Pastikan untuk meningkatkan pustaka dan peralatan Anda.](https://github.com/ethereum/eth1.0-specs/blob/master/network-upgrades/ecosystem-readiness.md)
 - [Baca pengumuman Yayasan Ethereum](https://blog.ethereum.org/2021/07/15/london-mainnet-announcement/)
 - [Baca penjelasan Ethereum Cat Herder](https://medium.com/ethereum-cat-herders/london-upgrade-overview-8eccb0041b41)
 
@@ -93,7 +92,7 @@ Peningkatan London memperkenalkan [EIP-1559](https://eips.ethereum.org/EIPS/eip-
 
 ### Berlin {#berlin}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>15-Apr-2021 10:07:03 AM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/12244000">12.244.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $2454 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20210415093618/https://ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="berlin" />
 
 #### Ringkasan {#berlin-summary}
 
@@ -117,15 +116,15 @@ Peningkatan Berlin mengoptimalkan harga gas untuk beberapa aksi EVM, dan meningk
 
 ### Genesis Rantai Suar {#beacon-chain-genesis}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>01-Des-2020 12.00.35 +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok Rantai Suar: <a href="https://beaconscan.com/slot/1">1</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $586,23 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20201207184633/https://www.ethereum.org/en/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="beaconChainGenesis" />
 
 #### Ringkasan {#beacon-chain-genesis-summary}
 
-[Rantai Suar](/upgrades/beacon-chain/) memerlukan deposito 16384 dari 32 ETH yang ditaruhkan untuk diluncurkan secara aman. Ini terjadi pada 27 November yang berarti Rantai Suar mulai memproduksi blok pada 1 Desember 2020. Ini adalah langkah pertama yang penting untuk meraih [visi Ethereum](/upgrades/vision/).
+[Rantai Suar](/roadmap/beacon-chain/) memerlukan deposito 16384 dari 32 ETH yang ditaruhkan untuk diluncurkan secara aman. Ini terjadi pada 27 November yang berarti Rantai Suar mulai memproduksi blok pada 1 Desember 2020. Ini adalah langkah pertama yang penting untuk meraih [visi Ethereum](/roadmap/vision/).
 
 [Baca pengumuman Yayasan Ethereum](https://blog.ethereum.org/2020/11/27/eth2-quick-update-no-21/)
 
-<DocLink to="/upgrades/beacon-chain/">
+<DocLink to="/roadmap/beacon-chain/">
   Rantai Suar
 </DocLink>
 
@@ -133,11 +132,11 @@ Peningkatan Berlin mengoptimalkan harga gas untuk beberapa aksi EVM, dan meningk
 
 ### Kontrak setoran penaruhan dibuat {#staking-deposit-contract}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>14-Okt-2020 09:22:52 AM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/11052984">11.052.984</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $379,04 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20201104235727/https://ethereum.org/en/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="stakingDepositContractDeployed" />
 
 #### Ringkasan {#deposit-contract-summary}
 
-Kontrak setoran penaruhan memperkenalkan [penaruhan](/glossary/#staking) ke ekosistem Ethereum. Bahkan kontrak [Jaringan Utama](/glossary/#mainnet) memiliki dampak langsung pada linimasa peluncuran [Rantai Suar](/upgrades/beacon-chain/), yaitu [peningkatan Ethereum](/upgrades/) yang penting.
+Kontrak setoran penaruhan memperkenalkan [penaruhan](/glossary/#staking) ke ekosistem Ethereum. Bahkan kontrak [Jaringan Utama](/glossary/#mainnet) memiliki dampak langsung pada linimasa peluncuran [Rantai Suar](/roadmap/beacon-chain/), yaitu [peningkatan Ethereum](/roadmap/) yang penting.
 
 [Baca pengumuman Yayasan Ethereum](https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-19/)
 
@@ -149,7 +148,7 @@ Kontrak setoran penaruhan memperkenalkan [penaruhan](/glossary/#staking) ke ekos
 
 ### Muir Glacier {#muir-glacier}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>02-Jan-2020 08:30:49 AM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/9200000">9.200.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $127,18 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20200103093618/https://ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="muirGlacier" />
 
 #### Ringkasan {#muir-glacier-summary}
 
@@ -170,7 +169,7 @@ Fork Gletser Muir memperkenalkan penundaan pada [bom kesulitan](/glossary/#diffi
 
 ### Istanbul {#istanbul}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>08-Des-2019 12:25:09 AM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/9069000">9.069.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $151,06 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20191216101254if*/https://ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="istanbul" />
 
 #### Ringkasan {#istanbul-summary}
 
@@ -178,7 +177,7 @@ Istanbul fork:
 
 - Mengoptimalkan biaya [gas](/glossary/#gas) dari tindakan tertentu di [EVM](/developers/docs/ethereum-stack/#ethereum-virtual-machine).
 - Meningkatkan ketahanan terhadap serangan penolakan layanan.
-- Membuat solusi [penskalaan Lapisan 2](/developers/docs/scaling/layer-2-rollups/) berdasarkan SNARK dan STARK berkinerja lebih baik.
+- Membuat solusi [penskalaan Lapisan 2](/developers/docs/scaling/#layer-2-scaling) berdasarkan SNARK dan STARK berkinerja lebih baik.
 - Mengaktifkan Ethereum dan Zcash untuk saling beroperasi.
 - Kontrak yang diizinkan untuk memperkenalkan lebih banyak fungsi kreatif.
 
@@ -186,12 +185,12 @@ Istanbul fork:
 
 <ExpandableCard title="Istanbul EIPs" contentPreview="Official improvements included in this fork.">
 
-- [EIP-152](https://eips.ethereum.org/EIPS/eip-152) – _memungkinkan Ethereum bekerja dengan mata uang yang mempertahankan privasi seperti Zcash._
+- [EIP-152](https://eips.ethereum.org/EIPS/eip-152) – _izinkan Ethereum bekerja dengan mata uang yang menjaga privasi seperti Zcash._
 - [EIP-1108](https://eips.ethereum.org/EIPS/eip-1108) – _kriptografi lebih murah untuk meningkatkan biaya [gas](/glossary/#gas)._
-- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344) – _melidungi Ethereum terhadap serangan perulangan dengan menambahkan [opcode] `CHAINID` (/developers/docs/ethereum-stack/#ethereum-virtual-machine)._
-- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884) – _mengoptimalkan harga gas opcode berdasarkan jumlah pemakaian._
-- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028) – _mengurangi biaya CallData agar lebih banyak data di blok – baik untuk [penskalaan Lapisan 2](/developers/docs/scaling/layer-2-rollups/)._
-- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200) – _perubahan harga gas opcode lainnya._
+- [EIP-1344](https://eips.ethereum.org/EIPS/eip-1344) – _melindungi Ethereum dari serangan ulang dengan menambahkan `CHAINID` [opcode](/developers/docs/ethereum-stack/#ethereum-virtual-machine)._
+- [EIP-1884](https://eips.ethereum.org/EIPS/eip-1884) – _mengoptimalkan harga gas opcode berdasarkan konsumsi._
+- [EIP-2028](https://eips.ethereum.org/EIPS/eip-2028) – _mengurangi biaya CallData untuk memungkinkan lebih banyak data dalam blok – bagus untuk [Penskalaan lapisan 2](/developers/docs/scaling/#layer-2-scaling)._
+- [EIP-2200](https://eips.ethereum.org/EIPS/eip-2200) – _alterasi harga gas opcode lainnya._
 
 </ExpandableCard>
 
@@ -199,7 +198,7 @@ Istanbul fork:
 
 ### Konstantinopel {#constantinople}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>28-Feb-2019 07:52:04 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/7280000">7.280.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $136,29 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20190415163751/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="constantinople" />
 
 #### Ringkasan {#constantinople-summary}
 
@@ -226,7 +225,7 @@ Fork Konstantinopel:
 
 ### Byzantium {#byzantium}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>16-Okt-2017 05:22:11 AM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/4370000">4.370.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $334,23 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20171017201143/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="byzantium" />
 
 #### Ringkasan {#byzantium-summary}
 
@@ -235,21 +234,21 @@ Fork Byzantium:
 - Pengurangan imbalan [penambangan](/developers/docs/consensus-mechanisms/pow/mining/) blok dari 5 menjadi 3 ETH.
 - Menunda [bom kesulitan](/glossary/#difficulty-bomb) selama satu tahun.
 - Menambahkan kemampuan untuk melakukan panggilan yang tidak mengubah status ke kontrak lain.
-- Menambahkan metode kriptografi tertentu untuk memungkinkan [penskalaan lapisan 2](/developers/docs/scaling/layer-2-rollups/).
+- Menambahkan metode kriptografi tertentu untuk memungkinkan [penskalaan lapisan ke-2](/developers/docs/scaling/#layer-2-scaling).
 
 [Baca pengumuman Yayasan Ethereum](https://blog.ethereum.org/2017/10/12/byzantium-hf-announcement/)
 
 <ExpandableCard title="Byzantium EIPs" contentPreview="Official improvements included in this fork.">
 
 - [EIP-140](https://eips.ethereum.org/EIPS/eip-140) – _menambahkan opcode `REVERT`._
-- [EIP-658](https://eips.ethereum.org/EIPS/eip-658) – _field status ditambahkan ke kwitansi untuk menunjukkan keberhasilan atau kegagalan._
-- [EIP-196](https://eips.ethereum.org/EIPS/eip-196) – _menambahkan kurva eliptik dan perkalian skalar untuk memungkinkan [ZK-Snarks](/developers/docs/scaling/layer-2-rollups/#zk-rollups)._
-- [EIP-197](https://eips.ethereum.org/EIPS/eip-197) – _menambahkan kurva eliptik dan perkalian skalar untuk memungkinkan [ZK-Snarks](/developers/docs/scaling/layer-2-rollups/#zk-rollups)._
-- [EIP-198](https://eips.ethereum.org/EIPS/eip-198) – _memungkinkan verfikasi tanda tangan RSA._
+- [EIP-658](https://eips.ethereum.org/EIPS/eip-658) – _kolom status ditambahkan ke resi transaksi untuk mengindikasikan keberhasilan atau kegagalan transaksi tersebut._
+- [EIP-196](https://eips.ethereum.org/EIPS/eip-196) – _menambahkan kurva eliptik dan perkalian skalar untuk memungkinkan [ZK-Snarks](/developers/docs/scaling/zk-rollups/)._
+- [EIP-197](https://eips.ethereum.org/EIPS/eip-197) – _menambahkan kurva eliptik dan perkalian skalar untuk memungkinkan [ZK-Snarks](/developers/docs/scaling/zk-rollups/)._
+- [EIP-198](https://eips.ethereum.org/EIPS/eip-198) – _mengaktifkan verifikasi tanda tangan RSA._
 - [EIP-211](https://eips.ethereum.org/EIPS/eip-211) – _menambahkan dukungan untuk nilai pengembalian panjang variabel._
-- [EIP-214](https://eips.ethereum.org/EIPS/eip-214) – _menambahkan opcode `STATICCALL` yang memungkinkan pemanggilan yang tidak mengubah state terhadap kontrak lainnya._
-- [EIP-100](https://eips.ethereum.org/EIPS/eip-100) – _mengubah rumus penyesuaian kesulitan._
-- [EIP-649](https://eips.ethereum.org/EIPS/eip-649) – _menunda [bom kesulitan](/glossary/#difficulty-bomb) selama 1 tahun dan mengurangi imbalan blok dari 5 ke 3 ETH._
+- [EIP-214](https://eips.ethereum.org/EIPS/eip-214) – _menambahkan opcode `STATICCALL`, memungkinkan panggilan yang tidak mengubah status ke kontrak lainnya._
+- [EIP-100](https://eips.ethereum.org/EIPS/eip-100) – _mengubah formula penyesuaian tingkat kesulitan._
+- [EIP-649](https://eips.ethereum.org/EIPS/eip-649) – _menunda [bom kesulitan](/glossary/#difficulty-bomb) hingga 1 tahun dan mengurangi imbalan blok dari 5 ETH menjadi 3 ETH._
 
 </ExpandableCard>
 
@@ -259,7 +258,7 @@ Fork Byzantium:
 
 ### Spurious Dragon {#spurious-dragon}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>22-Nov-2016 04:15:44 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/2675000">2.675.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $9,84 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20161127154654/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="spuriousDragon" />
 
 #### Ringkasan {#spurious-dragon-summary}
 
@@ -284,7 +283,7 @@ Spurious Dragon fork adalah respons kedua terhadap serangan penolakan layanan (D
 
 ### Tangerine whistle {#tangerine-whistle}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>18-Okt-2016 01:19:31 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/2463000">2.463.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $12,50 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20161030043727/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="tangerineWhistle" />
 
 #### Ringkasan {#tangerine-whistle-summary}
 
@@ -305,13 +304,13 @@ Tangerine Whistle fork adalah respons pertama terhadap serangan penolakan layana
 
 ### Fork DAO {#dao-fork}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>20-Jul-2016 01:20:40 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/1920000">1.920.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $12,54 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20160803215306/https://ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="daoFork" />
 
 #### Ringkasan {#dao-fork-summary}
 
 Fork DAO merupakan respons terhadap [serangan DAO 2016](https://www.coindesk.com/markets/2016/06/25/understanding-the-dao-attack/) di mana kontrak [DAO](/glossary/#dao) yang tidak aman dikuras dananya sebanyak lebih dari 3,6 juta ETH dalam peretasan saat itu. Fork tersebut memindahkan dana dari kontrak bermasalah ke [kontrak baru](https://etherscan.io/address/0xbf4ed7b27f1d666546e30d74d50d173d20bca754) dengan satu fungsi tunggal: tarik. Siapa pun yang kehilangan dana dapat menarik 1 ETH untuk setiap 100 token DAO di dompet mereka.
 
-Tindakan ini dipilih oleh komunitas Ethereum. Setiap pemilik ETH dapat memberikan suara melalui transaksi di [platform pengambilan suara](http://v1.carbonvote.com/). Keputusan untuk melakukan fork mencapai lebih dari 85% suara.
+Tindakan ini dipilih oleh komunitas Ethereum. Setiap pemegang ETH dapat memilih melalui transaksi di [platform pemilihan](http://v1.carbonvote.com/). Keputusan untuk melakukan fork mencapai lebih dari 85% suara.
 
 Beberapa penambang menolak untuk melakukan fork karena insiden DAO bukan merupakan kesalahan dalam protokol. Mereka kemudian membentuk [Ethereum Classic](https://ethereumclassic.org/).
 
@@ -321,7 +320,7 @@ Beberapa penambang menolak untuk melakukan fork karena insiden DAO bukan merupak
 
 ### Homestead {#homestead}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>14-Mar-2016 06:49:53 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/1150000">1.150.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $12,50 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20160313203843/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="homestead" />
 
 #### Ringkasan {#homestead-summary}
 
@@ -343,7 +342,7 @@ Fork Homestead yang melihat ke masa depan. Ini termasuk beberapa perubahan proto
 
 ### Thawing garis depan {#frontier-thawing}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>07-Sep-2015 09:33:09 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/200000">200.000</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: $1,24 USD<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20150912193811/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="frontierThawing" />
 
 #### Ringkasan {#frontier-thawing-summary}
 
@@ -355,7 +354,7 @@ Fork thawing garis depan mengangkat batas [gas](/glossary/#gas) 5.000 per [blok]
 
 ### Garis depan {#frontier}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <code>Jul-30-2015 03:26:13 PM +UTC</code><br /> <Emoji text=":bricks:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Nomor blok: <a href="https://etherscan.io/block/0">0</a><br /> <Emoji text=":money_bag:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> Harga ETH: N/A<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20150802035735/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="frontier" />
 
 #### Ringkasan {#frontier-summary}
 
@@ -369,7 +368,7 @@ Garis depan adalah implementasi langsung, tetapi barebone dari proyek Ethereum. 
 
 ### Jual Ether {#ether-sale}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> July 22 - September 02, 2014<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140804235628/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="etherSale" />
 
 Ether secara resmi mulai dijual selama 42 hari. Anda dapat membeli dengan BTC.
 
@@ -379,7 +378,7 @@ Ether secara resmi mulai dijual selama 42 hari. Anda dapat membeli dengan BTC.
 
 ### Yellowpaper dirilis {#yellowpaper}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> April 01, 2014<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140509173418/https://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="yellowpaperRelease" />
 
 Yellow Paper, yang ditulis oleh Dr. Gavin Wood, adalah definisi teknis dari protokol Ethereum.
 
@@ -391,7 +390,7 @@ Yellow Paper, yang ditulis oleh Dr. Gavin Wood, adalah definisi teknis dari prot
 
 ### Laporan resmi dirilis {#whitepaper}
 
-<emoji text=":calendar:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> November 27, 2013<br /> <Emoji text=":desktop_computer:" size={1} mr={"0.5rem"} mb={"0.5rem"} /> <a href="https://web.archive.org/web/20140208030136/http://www.ethereum.org/">ethereum.org di waybackmachine</a>
+<NetworkUpgradeSummary name="whitepaperRelease" />
 
 Makalah pengantar, diterbitkan pada tahun 2013 oleh Vitalik Buterin, pendiri Ethereum, sebelum peluncuran proyek pada tahun 2015.
 

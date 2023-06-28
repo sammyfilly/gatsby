@@ -1,8 +1,7 @@
 ---
-title: Pengantar Dapp
+title: Pengantar dapps
 description:
 lang: id
-sidebar: true
 ---
 
 Aplikasi terdesentralisasi (dapp) adalah aplikasi yang dibangun di atas jaringan terdesentralisasi yang menggabungkan [kontrak pintar](/developers/docs/smart-contracts/) dan antarmuka pengguna frontend. Di Ethereum, kontrak pintar dapat diakses dan transparan – seperti API terbuka – sehingga dapp Anda bahkan dapat menyertakan kontrak pintar yang telah ditulis orang lain.
@@ -71,6 +70,7 @@ Kontrak pintar adalah kode yang ada di blockchain Ethereum dan berjalan persis s
 
 ## Bacaan lebih lanjut {#further-reading}
 
+- [Arsitektur aplikasi Web 3.0](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application) - _Preethi Kasireddy_
 - [Panduan 2021 untuk aplikasi terdesentralisasi](https://limechain.tech/blog/what-are-dapps-the-2021-guide/) - _LimeChain_
 - [Apa itu Aplikasi Terdesentralisasi?](https://www.gemini.com/cryptopedia/decentralized-applications-defi-dapps) - _Gemini_
 

@@ -2,10 +2,12 @@
 title: Liniile directoare privind securitatea contractelor inteligente
 description: O listă de verificare a ghidurilor de securitate de luat în considerare la construirea aplicației dapp
 author: "Trailofbits"
-tags: ["solidity", "contracte inteligente", "securitate"]
-skill: intermediar
+tags:
+  - "solidity"
+  - "contracte inteligente"
+  - "securitate"
+skill: intermediate
 lang: ro
-sidebar: true
 published: 2020-09-06
 source: Construirea de contracte sigure
 sourceUrl: https://github.com/crytic/building-secure-contracts/blob/master/development-guidelines/guidelines.md

@@ -1,7 +1,6 @@
 ---
 title: Fondazione Ethereum & programmi di sovvenzione alla community
 description: Un elenco dei programmi di sovvenzione di tutto l'ecosistema Ethereum.
-sidebar: true
 lang: it
 ---
 
@@ -15,21 +14,29 @@ Questo elenco è curato dalla nostra comunità. Se c'è qualcosa di mancante o i
 
 Questi programmi supportano il grande ecosistema di Ethereum offrendo sovvenzioni per un'ampia gamma di progetti, tra cui soluzioni per la scalabilità, la costruzione di community, la sicurezza, la privacy e molto altro. Queste sovvenzioni non sono specifiche per una data piattaforma Ethereum, e sono un buon punto di partenza per chi è ancora in fase esplorativa.
 
-- [Programma di supporto per l'ecosistema EF](https://esp.ethereum.foundation) - _Finanziamenti di progetti open source a favore di Ethereum, con particolare interesse agli strumenti universali, alle infrastrutture, alla ricerca e ai beni pubblici_
+- [Programma di supporto per l'ecosistema EF](https://esp.ethereum.foundation) - _Finanziamento di progetti open source a favore di Ethereum, con particolare interesse agli strumenti universali, alle infrastrutture, alla ricerca e ai beni pubblici_
 - [Ethereum RFPs](https://github.com/ethereum/requests-for-proposals) - _Richieste di proposte (RFP) da parte della Fondazione Ethereum relative a progetti lavori e progetti nell'ecosistema Ethereum_
-- [MetaCartel](https://www.metacartel.org/grants/) - _Sviluppo di Dapp e creazione di DAO_  
-  Sovvenzioni che vanno da 1.000 a 8.000 USD.
-- [Moloch DAO](https://www.molochdao.com/) - _Privacy, scaling di livello 2, sicurezza del cliente e molto Livelloaltro_
+- [MetaCartel](https://www.metacartel.org/grants/) - _Sviluppo di Dapp, creazione di DAO_
+- [Moloch DAO](https://www.molochdao.com/) - _Privacy, ridimensionamento di livello 2, sicurezza del client e molto altro_
 - [Sovvenzioni aperte](https://opengrants.com/explore)
+- [DAO Grants](https://docs.google.com/spreadsheets/d/1XHc-p_MHNRdjacc8uOEjtPoWL86olP4GyxAJOFO0zxY/edit#gid=0) - _Foglio di calcolo di Google delle organizzazioni che offrono sovvenzioni_
+- [Sovvenzioni accademiche](https://esp.ethereum.foundation/academic-grants-2023) - _Sovvenzioni per sostenere il lavoro accademico correlato a Ethereum_
 
 ## Programmi per progetti specifici {#project-specific}
 
 Questi progetti hanno creato le proprie sovvenzioni per progetti volti a sviluppare e sperimentare la propria tecnologia.
 
-- [TheGraph](https://airtable.com/shrdfvnFvVch3IOVm) – _[L’ecosistema Graph](https://thegraph.com/)_
-- [Programma di Sovvenzioni di Uniswap](https://www.unigrants.org/) – Community di _[Uniswap](https://uniswap.org/) _
-- [Balancer](https://forms.gle/c68e4fM7JHCQkPkN7) – _[Balancer](https://balancer.fi/) Ecosystem Fund_
-- [mStable](https://docs.mstable.org/advanced/grants-program) - _community [mStable](https://mstable.org/)_
+- [Aave Grants Program](https://aavegrants.org/) – _[Aave](https://aave.com/) sovvenzioni DAO_
+- [Balancer](https://balancergrants.notion.site/Balancer-Community-Grants-23e562c5bc4347cd8304637bff0058e6) – _[Balancer](https://balancer.fi/) ecosystem fund_
+- [Chainlink Grants Program](https://chain.link/community/grants) - _Sovvenzioni per la comunity di [Chainlink](https://chain.link/)_
+- [Compound Grants Program](https://compoundgrants.org/) – _Ecosistema finanziario [Compound](https://compound.finance/)_
+- [Lido Ecosystem Grants Organisation (LEGO)](https://lego.lido.fi/) – _Ecosistema finanziario di [Lido](https://lido.fi/)_
+- [Programma di MetaMask](https://metamaskgrants.org/): _DAO di sovvenzioni operata dai dipendenti di [MetaMask](https://metamask.io/)_
+- [Programma di Sovvenzioni di mStable](https://docs.mstable.org/advanced/grants-program) - _Community di [mStable](https://mstable.org/)_
+- [The Graph](https://airtable.com/shrdfvnFvVch3IOVm) – _Ecosistema di [The Graph](https://thegraph.com/)_
+- [Programma di Sovvenzioni UMA](https://grants.umaproject.org/): _Supporto per sviluppatori dell'[UMA](https://umaproject.org/)_
+- [Programma di Sovvenzioni di Uniswap](https://www.unigrants.org/) – _Community di [Uniswap](https://uniswap.org/)_
+- [Sovvenzioni Web3](https://web3grants.net): _Un elenco completo di programmi di sovvenzione relativi a web3/cripto_
 
 ## Finanziamento quadratico {#quadratic-funding}
 

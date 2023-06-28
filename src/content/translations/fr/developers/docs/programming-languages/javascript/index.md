@@ -2,7 +2,6 @@
 title: Ethereum pour les développeurs JavaScript
 description: Apprendre à développer pour Ethereum avec des projets et des outils basés sur JavaScript.
 lang: fr
-sidebar: true
 ---
 
 JavaScript est l'un des langages les plus populaires de l'écosystème Ethereum. Il existe même une [équipe](https://github.com/ethereumjs) dont le but est de développer autant d'Ethereum que possible en JavaScript.
@@ -24,7 +23,7 @@ Exploitez ces bibliothèques pour interagir avec des contrats intelligents sur E
 
 ### Contrats intelligents {#smart-contracts}
 
-Si vous êtes un développeur JavaScript qui souhaite rédiger son propre contrat intelligent, nous vous conseillons de vous familiariser avec [Solidity](https://solidity.readthedocs.io). Il s'agit du langage de contrat intelligent le plus populaire, et il est fortement inspiré de JavaScript.
+Si vous êtes un développeur JavaScript qui souhaite rédiger son propre contrat intelligent, nous vous conseillons de vous familiariser avec [Solidity](https://solidity.readthedocs.io). Il s'agit du langage de contrat intelligent le plus populaire et il est syntaxiquement similaire à JavaScript, ce qui peut en faciliter l'apprentissage.
 
 Plus d'infos sur les [contrats intelligents](/developers/docs/smart-contracts/).
 
@@ -32,7 +31,7 @@ Plus d'infos sur les [contrats intelligents](/developers/docs/smart-contracts/).
 
 ### La machine virtuelle Ethereum (EVM) {#the-ethereum-virtual-machine}
 
-Il existe une implémentation de JavaScript de la [machine virtuelle Ethereum](/developers/docs/evm/). Elle prend en charge les dernières règles concernant les fourches. Les règles de fourche sont les modifications apportées à l'EVM suite à de mises à niveau planifiées.
+Il existe une implémentation JavaScript de la [machine virtuelle Ethereum](/developers/docs/evm/). Elle prend en charge les dernières règles concernant les fourches. Les règles de fourche sont les modifications apportées à l'EVM suite à de mises à niveau planifiées.
 
 Il existe différents packages JavaScript que vous pouvez consulter pour mieux comprendre :
 

@@ -2,7 +2,6 @@
 title: Kerangka Kerja Pengembangan Dapp
 description: Jelajahi keuntungan kerangka kerja ini dan bandingkan dengan opsi yang tersedia.
 lang: id
-sidebar: true
 ---
 
 ## Pengantar kerangka kerja {#introduction-to-frameworks}
@@ -38,11 +37,6 @@ Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca 
 - [Dokumentasi](https://eth-brownie.readthedocs.io/en/latest/)
 - [GitHub](https://github.com/eth-brownie/brownie)
 
-**Embark -** **_Lingkungan pengembangan, kerangka kerja pengujian, dan peralatan lainnya yang terintegrasi dengan Ethereum, IPFS, dan Whisper._**
-
-- [Dokumentasi](https://embark.status.im/docs/)
-- [GitHub](https://github.com/embark-framework/embark)
-
 **Web3j -** **_Sebuah platform untuk mengembangkan aplikasi blockchain di JVM_**
 
 - [Halaman beranda](https://www.web3labs.com/web3j-sdk)
@@ -74,11 +68,6 @@ Sebelum menyelami kerangka kerja, kami menyarankan Anda terlebih dahulu membaca 
 - [alchemy.com](https://www.alchemy.com/)
 - [GitHub](https://github.com/alchemyplatform)
 - [Discord](https://discord.com/invite/A39JVCM)
-
-**Dapptools -** **_Serangkaian alat CLI yang berfokus pada Ethereum mengikuti filosofi desain Unix, mendukung komposabilitas, dapat dikonfigurasi, dan ekstensibilitas._**
-
-- [Halaman beranda](https://dapp.tools/)
-- [GitHub](https://github.com/dapphub/dapptools/)
 
 ## Bacaan lebih lanjut {#further-reading}
 

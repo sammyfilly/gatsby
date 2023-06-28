@@ -2,7 +2,6 @@
 title: Testowanie inteligentnych kontraktów
 description:
 lang: pl
-sidebar: true
 incomplete: true
 ---
 
@@ -16,11 +15,6 @@ incomplete: true
 **Solidity-Coverage –** **<em x-id="4">alternatywne narzędzie do kodu Solidity.</em>**
 
 - [GitHub](https://github.com/sc-forks/solidity-coverage)
-
-**hevm –** **_Implementacja EVM stworzona specjalnie w celu testowania jednostek i debugowania inteligentnych kontraktów._**
-
-- [GitHub](https://github.com/dapphub/dapptools/tree/master/src/hevm)
-- [Czat DappHub](https://dapphub.chat/)
 
 **Whiteblock Genesis –** **<em x-id="4">kompleksowy piaskownica deweloperska i platforma testowa dla blockchainu.</em>**
 

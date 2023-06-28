@@ -2,7 +2,6 @@
 title: ERC-721 Non-Fungible Token Standard
 description:
 lang: en
-sidebar: true
 ---
 
 ## Introduction {#introduction}
@@ -21,7 +20,7 @@ than another Token from the same Smart Contract, maybe due to its age, rarity or
 Wait, visual?
 
 Yes! All NFTs have a `uint256` variable called `tokenId`, so for any ERC-721 Contract, the pair
-`contract address, uint256 tokenId` must be globally unique. That said, a dApp can have a "converter" that
+`contract address, uint256 tokenId` must be globally unique. That said, a dapp can have a "converter" that
 uses the `tokenId` as input and outputs an image of something cool, like zombies, weapons, skills or amazing kitties!
 
 ## Prerequisites {#prerequisites}
@@ -78,7 +77,7 @@ see below we will use a simplified ABI, to make it a low friction example.
 First, make sure you have installed [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Python library:
 
 ```
-$ pip install web3
+pip install web3
 ```
 
 ```python
@@ -247,8 +246,9 @@ recent_births = [get_event_data(w3.codec, ck_extra_events_abi[1], log)["args"] f
   creatures we call CryptoKitties.
 - [Sorare](https://sorare.com/) is a global fantasy football game where you can collect limited editions collectibles,
   manage your teams and compete to earn prizes.
-- [The Ethereum Name Service (ENS)](https://ens.domains/) offers a secure & decentralised way to address resources both
+- [The Ethereum Name Service (ENS)](https://ens.domains/) offers a secure & decentralized way to address resources both
   on and off the blockchain using simple, human-readable names.
+- [POAP](https://poap.xyz) delivers free NFTs to people who attend events or complete specific actions. POAPs are free to create and distribute.
 - [Unstoppable Domains](https://unstoppabledomains.com/) is a San Francisco-based company building domains on
   blockchains. Blockchain domains replace cryptocurrency addresses with human-readable names and can be used to enable
   censorship-resistant websites.

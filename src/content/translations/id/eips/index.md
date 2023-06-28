@@ -2,7 +2,6 @@
 title: Proposal Peningkatan Ethereum (EIP)
 description: Informasi dasar yang Anda perlukan untuk memahami Proposal Peningkatan Ethereum (EIP).
 lang: id
-sidebar: true
 ---
 
 # Pengantar pada Proposal Peningkatan Ethereum (EIP) {#introduction-to-ethereum-improvement-proposals-eips}
@@ -36,7 +35,7 @@ Editor EIP ditugaskan mengulas EIP untuk melihat kesehatan teknisnya, kesesuaian
 - Nick Savers (Komunitas)
 - Micah Zoltu (Komunitas)
 
-Editor EIP bersama dengan anggota komunitas [Ethereum Cat Herders](https://ethereumcatherders.com/) dan [Ethereum Magicians](https://ethereum-magicians.org/) yang memutuskan EIP mana yang akan diimplementasikan, bertanggung jawab dalam mempermudah proses EIP serta memajukan EIP ke tahap "Akhir" atau "Ditarik".
+Editor EIP bersama dengan anggota komunitas dari [Ethereum Cat Herders](https://ethereumcatherders.com/) dan [Ethereum Magicians](https://ethereum-magicians.org/) memutuskan EIP mana yang akan di implementasikan, yang akan bertanggung jawab untuk memfasilitasi EIP juga memindakan EIP ke tahap "Final" atau "Penarikan".
 
 Proses standardisasi lengkap yang disertai dengan bagan dideskripsikan dalam [EIP-1](https://eips.ethereum.org/EIPS/eip-1)
 

@@ -2,7 +2,6 @@
 title: ERC-20 Token Standard
 description:
 lang: en
-sidebar: true
 ---
 
 ## Introduction {#introduction}
@@ -25,7 +24,7 @@ where the ERC-20 plays its role! This standard allows developers to build token 
 **What is ERC-20?**
 
 The ERC-20 introduces a standard for Fungible Tokens, in other words, they have a property that makes each Token be exactly
-the same (in type and value) of another Token. For example, an ERC-20 Token acts just like the ETH, meaning that 1 Token
+the same (in type and value) as another Token. For example, an ERC-20 Token acts just like the ETH, meaning that 1 Token
 is and will always be equal to all the other Tokens.
 
 ## Prerequisites {#prerequisites}
@@ -83,7 +82,7 @@ see below we will use a simplified ABI, to make it a low friction example.
 First, make sure you have installed [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Python library:
 
 ```
-$ pip install web3
+pip install web3
 ```
 
 ```python
@@ -126,7 +125,7 @@ simplified_abi = [
     }
 ]
 
-dai_contract = w3.eth.contract(address=w3.toChecksumAddress(dai_token_addr), abi=simplified_abi)
+dai_contract = w3.eth.contract(address=w3.to_checksum_address(dai_token_addr), abi=simplified_abi)
 symbol = dai_contract.functions.symbol().call()
 decimals = dai_contract.functions.decimals().call()
 totalSupply = dai_contract.functions.totalSupply().call() / 10**decimals
@@ -137,7 +136,7 @@ print("===== %s =====" % symbol)
 print("Total Supply:", totalSupply)
 print("Addr Balance:", addr_balance)
 
-weth_contract = w3.eth.contract(address=w3.toChecksumAddress(weth_token_addr), abi=simplified_abi)
+weth_contract = w3.eth.contract(address=w3.to_checksum_address(weth_token_addr), abi=simplified_abi)
 symbol = weth_contract.functions.symbol().call()
 decimals = weth_contract.functions.decimals().call()
 totalSupply = weth_contract.functions.totalSupply().call() / 10**decimals
@@ -154,3 +153,4 @@ print("Addr Balance:", addr_balance)
 - [EIP-20: ERC-20 Token Standard](https://eips.ethereum.org/EIPS/eip-20)
 - [OpenZeppelin - Tokens](https://docs.openzeppelin.com/contracts/3.x/tokens#ERC20)
 - [OpenZeppelin - ERC-20 Implementation](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
+- [Alchemy - Guide to Solidity ERC20 Tokens](https://www.alchemy.com/overviews/erc20-solidity)

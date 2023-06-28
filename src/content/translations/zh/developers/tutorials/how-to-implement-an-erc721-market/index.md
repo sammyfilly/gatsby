@@ -7,9 +7,8 @@ tags:
   - "erc-721"
   - "solidity"
   - "代币"
-skill: 中等难度
+skill: intermediate
 lang: zh
-sidebar: true
 published: 2020-03-19
 source: Hackernoon
 sourceUrl: https://hackernoon.com/how-to-implement-an-erc721-market-1e1a32j9
@@ -139,9 +138,9 @@ function cancelTrade(uint256 _trade)
 }
 ```
 
-就是这样。 您已经浏览到了该代码实现的末尾。 令人惊讶的是，一些业务概念在用代码表达时是多么紧凑，这就是其中一个例子。 您可以在[我们的代码库中](https://github.com/HQ20/contracts/blob/master/contracts/classifieds/Classifieds.sol)查看完整的合约代码。
+就是这样。 您已经浏览到了该代码实现的末尾。 令人惊讶的是，一些业务概念在用代码表达时是多么紧凑，这就是其中一个例子。 请在[我们的代码库中](https://github.com/HQ20/contracts/blob/master/contracts/classifieds/Classifieds.sol)查看完整的合约代码。
 
-## 结论 {#conclusion}
+## 总结 {#conclusion}
 
 分类信息板是一种易于在互联网技术的帮助下大规模扩张的常见市场结构，也是一种容易形成少数垄断赢家的非常流行的商业模式。
 

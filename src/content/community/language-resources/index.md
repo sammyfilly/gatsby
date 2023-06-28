@@ -1,7 +1,6 @@
 ---
 title: Language resources
 description: Non-english resources to learn about Ethereum
-sidebar: true
 lang: en
 ---
 
@@ -17,7 +16,7 @@ Know of an educational resource in your language? [Open an issue](https://github
 
 ## Ethereum.org resources {#ethereum-org}
 
-Ethereum.org is translated is natively translated into over 40 languages which you can find on our [languages page](/languages).
+Ethereum.org is natively translated into over 40 languages which you can find on our [languages page](/languages).
 
 If you are bilingual and want to help us reach more people, you can also get involved with the [ethereum.org Translation Program](/contributing/translation-program/#translation-program) and help us translate the website.
 
@@ -46,7 +45,7 @@ If you are bilingual and want to help us reach more people, you can also get inv
 **General resources**
 
 - [Ethereum.cn](https://www.ethereum.cn/) - community maintained content, covering the consensus layer upgrade, all core dev meeting notes, layer 2, etc.
-- [EthFans](https://ethfans.org/) - learn everything from the basics to advanced Ethereum topics
+- [EthFans](https://github.com/editor-Ajian/EthFans.org-annual-collected-works/) - learn everything from the basics to advanced Ethereum topics
 - [Unitimes](https://mp.weixin.qq.com/s/tvloZSDBSOQN9zDQj_91kA) - community maintained content, covering Ethereum, DeFi, NFT, Web3-related knowledge
 - [123ETH](https://123eth.org/) - a Portal to the Ethereum ecosystem
 - [Zhen Xiao](http://zhenxiao.com/blockchain/) - free online courses about cryptocurrency and its applications
@@ -60,13 +59,20 @@ If you are bilingual and want to help us reach more people, you can also get inv
 
 **For developers**
 
-- [DappLearning](https://github.com/Dapp-Learning-DAO/Dapp-Learning) - a learning group to study mainstream dApp projects and share thoughts and comments every week
+- [DappLearning](https://github.com/Dapp-Learning-DAO/Dapp-Learning) - a learning group to study mainstream dapp projects and share thoughts and comments every week
 - [LearnBlockchain](https://learnblockchain.cn/) - a community for devs, sharing information about blockchain technology
 
 **For cryptography researchers**
 
 - [SecbitLabs](https://mp.weixin.qq.com/s/69_tqBJpr_sbaKtR1sBRMw) - a WeChat account, explaining cryptography, security, etc.
 - [Sparkbyte](https://mp.weixin.qq.com/s/9KgKTc_jtJ7bWKdbNPoqvQ) - a WeChat account, explaining zk technology
+
+### Czech {#cs}
+
+- [Gwei.cz](https://gwei.cz) - local community around Web3, creates educational content, organises online and in-person events
+- [Gwei.cz Příručka](https://prirucka.gwei.cz/) - Ethereum guide for beginners
+- [DAO Příručka](https://dao.gwei.cz/) - beginner's guide to the DAOs
+- [Mastering Ethereum](https://ipfs.infura-ipfs.io/ipfs/bafybeidvuxhnsgfx3tncpfxheqglkjwmdxclknlgd7s7qggd2a6bzgb27m) - Mastering Ethereum in Czech
 
 ### French {#fr}
 
@@ -88,7 +94,11 @@ If you are bilingual and want to help us reach more people, you can also get inv
 - [Ethereum Italia Podcast](https://www.ethereum-italia.it/podcast/) - Ethereum podcast in Italian
 - [Microsoft Learn (Solidity)](https://docs.microsoft.com/it-it/learn/modules/blockchain-learning-solidity/) - learn how to use Solidity
 - [Microsoft Learn (Smart contracts)](https://docs.microsoft.com/it-it/learn/modules/blockchain-solidity-ethereum-smart-contracts/) - learn about writing smart contracts using Solidity
-- [Microsoft Learn (dApps)](https://docs.microsoft.com/it-it/learn/modules/blockchain-create-ui-decentralized-apps/) - create a user interface with decentralized applications
+- [Microsoft Learn (dapps)](https://docs.microsoft.com/it-it/learn/modules/blockchain-create-ui-decentralized-apps/) - create a user interface with decentralized applications
+
+### Russian {#ru}
+
+- [Cyber Academy](https://cyberacademy.dev) - educational space for web3 builders
 
 ### Spanish {#es}
 
@@ -98,6 +108,7 @@ If you are bilingual and want to help us reach more people, you can also get inv
 - [Curso Introducción a Ethereum Development](https://youtube.com/playlist?list=PLTqiwJDd_R8y9pfUBjhkVa1IDMwyQz-fU) - Solidity basics, testing and deployment of your first smart contract
 - [Curso Introducción a Seguridad y Hacking en Ethereum](https://youtube.com/playlist?list=PLTqiwJDd_R8yHOvteko_DmUxUTMHnlfci) - understand common vulnerabilities and security issues in real smart contracts
 - [Curso Introducción a DeFi Development](https://youtube.com/playlist?list=PLTqiwJDd_R8zZiP9_jNdaPqA3HqoW2lrS) - learn how DeFi smart contracts work in Solidity and create your own Automated Market Maker
+- [Cryptoversidad](https://www.youtube.com/c/Cryptoversidad) - Non-technical blockchain education from beginner to advanced. Learn everything about crypto and Ethereum.
 
 ### Turkish {#tr}
 
@@ -106,7 +117,7 @@ If you are bilingual and want to help us reach more people, you can also get inv
 
 ### Vietnamese {#vi}
 
-- [Tino Group](https://wiki.tino.org/ethereum-la-gi/) - overview of Ethereum, dApps, wallets and FAQs
+- [Tino Group](https://wiki.tino.org/ethereum-la-gi/) - overview of Ethereum, dapps, wallets and FAQs
 - [Tap Chi Bitcoin](https://tapchibitcoin.io/tap-chi/tin-tuc-ethereum-eth) - web platform with subpages for Ethereum news and education
 - [Coin68](https://coin68.com/ethereum-tieu-diem/) - cryptocurrency portal with Ethereum news and educational content
 

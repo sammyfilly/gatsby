@@ -2,7 +2,6 @@
 title: Prueba de contratos inteligentes
 description:
 lang: es
-sidebar: true
 incomplete: true
 ---
 
@@ -13,14 +12,9 @@ incomplete: true
 - [getwaffle.io](https://getwaffle.io/)
 - [GitHub](https://github.com/EthWorks/Waffle)
 
-**Solidity-Coverage: \*\***_Herramienta alternativa de cobertura de código de Solidity._\*\*
+**Solidity-Coverage:** **_Herramienta alternativa de cobertura de código de Solidity._**
 
 - [GitHub](https://github.com/sc-forks/solidity-coverage)
-
-**hevm: \*\***_Implementación de la EVM creada específicamente para pruebas unitarias y depuración de contratos inteligentes._\*\*
-
-- [GitHub](https://github.com/dapphub/dapptools/tree/master/src/hevm)
-- [Chat de DappHub](https://dapphub.chat/)
 
 **Whiteblock Genesis: ** **_Una plataforma de desarrollo de punto a punto y pruebas para la blockchain._**
 
