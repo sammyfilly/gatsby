@@ -1,6 +1,7 @@
 ---
 title: Com puc involucrar-me?
 description: Com involucrar-se amb la comunitat Ethereum.
+
 lang: ca
 ---
 
@@ -36,8 +37,7 @@ Si no sou desenvolupadors, pot ser difícil saber per on començar a Ethereum. A
 
 ### Escriviu contingut sobre Ethereum {#write-content}
 
-- Ethereum necessita bons escriptors que puguin explicar el seu valor en llenguatge quotidià
-- No us atreviu a publicar els vostres propis articles encara? Considereu fer una contribució al contingut existent en els recursos de la comunitat, o proposeu un nou contingut per a ethereum.org!
+- Ethereum necessita bons escriptors que puguin explicar el seu valor en llenguatge 
 
 ### Oferiu-vos per prendre nota de les trucades de la comunitat {#take-notes}
 
@@ -60,7 +60,7 @@ Apostant els vostres ETH podeu guanyar recompenses mentre ajudeu a protegir la x
 
 - [Més informació sobre les apostes](/staking/)
 
-### Donar suport a projectes {#support-projects}
+
 
 L'ecosistema Ethereum té com a missió aportar fons a béns públics i projectes d'impacte. Amb petites donacions podeu mostrar el vostre suport i permetre que es faci un treball important.
 
@@ -69,7 +69,7 @@ L'ecosistema Ethereum té com a missió aportar fons a béns públics i projecte
 
 ## Professionals financers i comptables <Emoji text=":chart_with_upwards_trend:" size={1} /> {#financial-professionals}
 
-- Ethereum és la llar de l'ecosistema de «Finances descentralitzades», una xarxa de protocols i aplicacions que ofereixen un sistema financer alternatiu. Si sou professionals financers, doneu una ullada a algunes aplicacions DeFi en [DeFi Llama](https://defillama.com/) o [DeFiPrime](https://defiprime.com)
+
 - Comptable? Els actius d'Ethereum (ETH, tokens, DeFi, etc.) presenten molts problemes de comptabilitat per a novells. Podríeu començar per donar una ullada a alguns projectes que busquen ajudar els usuaris de criptomonedes a solucionar els seus reptes comptables, com ara [Rotki](https://rotki.com/)
 
 ## Gestors de producte <Emoji text=":fountain_pen:" size={1} /> {#product-managers}
@@ -85,8 +85,7 @@ L'ecosistema Ethereum té com a missió aportar fons a béns públics i projecte
 **Voleu trobar feina treballant a Ethereum?**
 
 - [Feines a ethereum.org](/about/#open-jobs)
-- [Ethereum Foundation job board (Lever)](https://jobs.lever.co/ethereumfoundation)
-- [Ethereum Foundation job board (BambooHR)](https://ethereum.bamboohr.com/jobs/)
+
 - [Feines relacionades amb la criptomoneda](https://cryptocurrencyjobs.co/ethereum/)
 - [Crypto.jobs](https://crypto.jobs/)
 - [Feina a ConsenSys](https://consensys.net/careers/)
@@ -113,4 +112,4 @@ Les «DAO» són organitzacions autònomes descentralitzades. Aquests grups apro
 - [dOrg](https://dOrg.tech) [@dOrg_tech](https://twitter.com/dOrg_tech) - _Col·lectiu de desenvolupament de Web3 autònom treballant com una DAO_
 - [HausDAO](https://daohaus.club) [@nowdaoit](https://twitter.com/nowdaoit) -_Comunitat de governança de DAOhaus_
 - [Developer DAO](https://www.developerdao.com/) [@developer_dao](https://twitter.com/developer_dao) - _Comunitat de constructors que creuen en la propietat col·lectiva d'internet_
-- [DXdao](https://DXdao.eth.link/) [@DXdao](https://twitter.com/DXdao_) - _Decentralized development & governance of dApps & protocols_
+

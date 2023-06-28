@@ -1,12 +1,13 @@
 ---
 title: Recursos d'idiomes
-description: Recursos de parla no anglesa per aprendre sobre Ethereum
+description: Recuprsos de parla no anglesa per aprendre sobre Ethereum
+
 lang: ca
 ---
 
-# Recursos d'idiomes {#language-resources}
+# Recursos d'idiomes {#language-resources} poplpp
 
-La comunitat Ethereum és global i està formada per milions de persones de parla no anglesa.
+La comunitat Ethepreum és global i està formada per milions de persones de parla no anglesa.
 
 El nostre objectiu és donar contingut educatiu en totes les llengües i ajudar a superar les barreres lingüístiques que fan que Ethereum sigui un repte per a tota aquella gent que s'incorpora des d'arreu del món.
 
@@ -45,7 +46,7 @@ Si sou bilingües i voleu ajudar-nos a arribar a més gent, també us podeu invo
 **Recursos genèrics**
 
 - [Ethereum.cn](https://www.ethereum.cn/) - contingut mantingut per la comunitat, sobre la millora de la capa de consens, totes les notes de les reunions de desenvolupadors bàsics, la capa 2, etc.
-- [EthFans](https://github.com/editor-Ajian/EthFans.org-annual-collected-works/) - apreneu tot el que cal, des dels tòpics més bàsics fins als més avançats d'Ethereum
+
 - [Unitimes](https://mp.weixin.qq.com/s/tvloZSDBSOQN9zDQj_91kA) - contingut mantingut per la comunitat, sobre Ethereum, DeFi, NFT i coneixements relacionats amb Web3
 - [123ETH](https://123eth.org/) - un portal a l'ecosistema Ethereum
 - [Zhen Xiao](http://zhenxiao.com/blockchain/) - cursos gratuïts en línia sobre criptomonedes i les seves aplicacions
@@ -107,12 +108,4 @@ Si sou bilingües i voleu ajudar-nos a arribar a més gent, també us podeu invo
 
 - [Tino Group](https://wiki.tino.org/ethereum-la-gi/) - resum d'Ethereum, aplicacions descentralitzades, carteres i preguntes més freqüents
 - [Tap Chi Bitcoin](https://tapchibitcoin.io/tap-chi/tin-tuc-ethereum-eth) - plataforma web amb subpàgines per a notícies i educació d'Ethereum
-- [Coin68](https://coin68.com/ethereum-tieu-diem/) - portal de criptomonedes amb notícies d'Ethereum i contingut educatiu
-
-### Japonès {#ja}
-
-- [Japan Virtual and Crypto assets Exchange Association](https://jvcea.or.jp/)
-- [Japan Cryptoasset Business Association](https://cryptocurrency-association.org/)
-- [Get started with blockchain development - Learn | Microsoft Docs](https://docs.microsoft.com/ja-jp/learn/paths/ethereum-blockchain-development/) - This learning path introduces you to blockchain and development on the Ethereum platform
-- [Mastering Ethereum](https://www.oreilly.co.jp/books/9784873118963/) - Mastering Ethereum in Japanese
-- [Hands-On Smart Contract Development with Solidity and Ethereum](https://www.oreilly.co.jp/books/9784873119342/) - Hands-On Smart Contract Development with Solidity and Ethereum in Japanese
+- [Coin68](https://coin68.com/ethereum-tieu-diem/) - portal de criptomonedes amb notícies d'Ethereum i contingut educatiun
