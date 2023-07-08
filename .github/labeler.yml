@@ -20,7 +20,7 @@
   - gatsby-ssr.js
   - .all-contributorsrc
 
-"translation :earth_africa:":
+"translation :earth_global:":
   - src/content/translations/**/*
   - src/intl/*
   - src/utils/translations.js
@@ -32,3 +32,9 @@
 
 "event :date:":
   - src/data/community-events.json
+blocks:
+    - id: block-name
+      title: My custom block
+      markdown:
+        codeblock: blocksyntax
+        body: content
